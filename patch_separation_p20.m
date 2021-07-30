@@ -3,7 +3,7 @@
 % Leafy Behera & Peeusa Mitra %
 
 %% Patch Seperation Code
-    load('Experiment_P20foraging_2017-06-26.mat') % loading the exp data file
+    load('Experiment_P20foraging_2017-06-26.mat') % loading the exp data file (This oarticular file is for participant number 20)
     ss= {bhvmat.UserVars.rwrd}; % stores all rewards (this is cell)
     s_1=[ss{:}];                % reward values in stay trials( leave trials have 0 values)
     d=find(cellfun(@isempty,ss)); % to find the empty cells (leave trials)
