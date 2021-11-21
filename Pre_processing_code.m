@@ -73,7 +73,7 @@ end
 % end
 
 %% Step 2: Data smoothing using hanning window %%%
-a=x(:,1);
+a=see(:,1);
  
 N = 128;
  
